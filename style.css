@@ -7,6 +7,9 @@
     color: black;
     list-style: none;
   }
+  body{
+    background: #abbedf;
+  }
   header {
     width: 100%;
     height: 65px;
@@ -132,7 +135,7 @@ background: #486db1;
   padding:10px;
 }
 #landing .content .heading{
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 900;
   background-image: linear-gradient(45deg,#486db1, #022163);
   background-clip: text;
@@ -194,7 +197,7 @@ background: #486db1;
 #view{
   width:100%;
   min-height:65vh;
-  background:teal;
+  /* background:teal; */
   display:flex;
   align-items:center;
   justify-content: center;
@@ -204,13 +207,27 @@ background: #486db1;
   padding:20px;
 }
 .card{
-  width: 85%;
-  height:600px;
-  background-color: rgb(255, 166, 0);
+  width: 90%;
+  height:500px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  position:relative;
+  overflow: hidden;
+  border:1px solid  #00d363;
+}
+.card b{
+  width: 40px;
+  height: 24px;
+  background: #00d363;
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translatex(-50%);
+  border-radius: 50%;
 }
 .card .top{
   width:100%;
-  height:55%;
+  height:45%;
   /* background-color: aqua; */
   display: flex;
   align-items: center;
@@ -218,12 +235,12 @@ background: #486db1;
 }
 .card .top img{
   border-radius: 50%;
-  width:300px;
-  height:300px;
+  width:190px;
+  height:190px;
 }
 .card .mid{
   width:100%;
-  height:30%;
+  height:40%;
   /* background-color: rgb(21, 255, 0); */
 }
 .card .mid img{
@@ -233,19 +250,26 @@ background: #486db1;
 .card .mid ul {
   width:100%;
   height:100%;
-  background-color: rgb(255, 60, 0);
+  /* background-color: rgb(255, 60, 0); */
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap:15px;
 }
-.card .mid ul li{
-  width:75%;
-  background-color: blue;
+.card .mid ul li:first-child{
+  /* background-color: #00d363; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+.card .mid ul li{
+  width:75%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:15px;
   
 }
 .card .bottom{
