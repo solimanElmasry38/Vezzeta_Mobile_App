@@ -38,7 +38,7 @@
     position: absolute;
     top:0;
     right:30px;
-    width: 60%;
+    width: 55%;
     height: 0;
     /* background: yellow; */
     display: flex;
@@ -59,8 +59,8 @@
     -webkit-text-stroke: .5px #00d363;
   }
   #burger {
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     /* background-color: beige; */
     padding: 5px;
     position: relative;
@@ -205,7 +205,7 @@ background: #486db1;
 }
 .card{
   width: 85%;
-  height:500px;
+  height:600px;
   background-color: rgb(255, 166, 0);
 }
 
