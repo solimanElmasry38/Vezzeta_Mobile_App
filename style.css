@@ -210,7 +210,7 @@ background: #486db1;
 }
 .card .top{
   width:100%;
-  height:35%;
+  height:55%;
   background-color: aqua;
   display: flex;
   align-items: center;
@@ -218,13 +218,35 @@ background: #486db1;
 }
 .card .top img{
   border-radius: 50%;
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
 }
 .card .mid{
   width:100%;
-  height:50%;
+  height:30%;
   background-color: rgb(21, 255, 0);
+}
+.card .mid img{
+  width:20px;
+  height:20px;
+}
+.card .mid ul {
+  width:100%;
+  height:100%;
+  background-color: rgb(255, 60, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:15px;
+}
+.card .mid ul li{
+  width:75%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 .card .bottom{
   width:100%;
