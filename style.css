@@ -290,8 +290,75 @@ background: #486db1;
 
 footer{
   width:100%;
-  height:200px;
-  background-color: red;
+  height:550px;
+  background-color: #002880;
+  padding:5px;
 }
+
+/* footer .logo{
+  
+} */
+footer .logo img{
+  width:80px;
+  height:80px;
+
+}
+footer   .text{
+  width:200px;
+  /* background-color: teal; */
+
+}
+
+.socialMedia{
+  width:160px;
+  height:50px;
+  background-color: yellowgreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.core{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.middel{
+  width:100%;
+  height:230px;
+  /* background: orange; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer .bottom{
+  width:90%;
+  height:30px;
+  /* background-color:  blue; */
+  border-top: 3px solid black;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.margin{
+  width:100%;
+  height:800px;
+  background: cornflowerblue;
+}
+
+
+
+
+
 
 }
