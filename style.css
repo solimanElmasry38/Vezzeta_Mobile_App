@@ -290,37 +290,64 @@ background: #486db1;
 
 footer{
   width:100%;
-  height:450px;
+  /* height:450px; */
   background-color: #002880;
   padding:5px;
+  /* padding-bottom: 10px; */
 }
-
-/* footer .logo{
+footer .x{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+}
+footer .logo{
+  width:200px;
+  height:15%;
   
-} */
+}
 footer .logo img{
-  width:80px;
-  height:80px;
+  width:50px;
+  height:50px;
+
+}
+footer .logo p{
+ font-size:25px;
+
+
+ font-weight: 900;
+ color:white;
 
 }
 footer   .text{
-  width:200px;
+  width:330px;
   /* background-color: teal; */
+  color:gray;
+
+}
+footer   .text p{
+
+  /* background-color: teal; */
+  color:rgb(136, 134, 134);
 
 }
 
 .socialMedia{
-  width:160px;
-  height:50px;
+  width:50px;
+  height:160px;
   background-color: yellowgreen;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
 }
 .core{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height:45%;
+  /* background-color: red; */
+
 }
 
 
@@ -331,13 +358,14 @@ footer   .text{
 
 .middel{
   width:100%;
-  height:150px;
+  height:40%;
   /* background: orange; */
-  margin-top: 30px;
-  margin-bottom: 15px;
+  /* margin-top: 30px; */
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top:10px;
 }
 
 
@@ -354,6 +382,7 @@ footer .middel .left{
   font-weight: 900;
   margin-bottom: 5px;
   color:white;
+  text-transform: capitalize;
 }
 footer .middel .right{
   width:50%;
@@ -366,10 +395,16 @@ footer .middel ul{
   color:rgb(136, 134, 134);
 
 }
+
 footer .middel ul li{
   padding-bottom: 5px;
   margin-top: 5px;
-  border-bottom: 1px solid chocolate;
+  border-bottom: 1px solid rgb(0, 140, 255);
+
+}
+footer .middel ul li a{
+  text-transform: capitalize;
+  color:rgb(136, 134, 134);
 
 }
 
@@ -377,17 +412,21 @@ footer .middel ul li{
 
 footer .bottom{
   width:90%;
-  height:45px;
-  /* background-color:  blue; */
-  border-top: 1px solid black;
+  height:30px;
+  /* background-color:  rgb(72, 72, 150); */
+  border-top: 1px solid rgb(0, 140, 255);
   margin: auto;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 
-
+footer .bottom p{
+  color:white;
+}
 
 
 
