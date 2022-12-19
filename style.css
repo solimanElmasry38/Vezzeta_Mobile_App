@@ -11,9 +11,13 @@
     background: #abbedf;
   }
   header {
+
     width: 100%;
     height: 65px;
     background-color: #002880;
+    position: fixed;
+    z-index: 100;
+    top:0;
   }
   nav {
     width: 90%;
@@ -126,6 +130,7 @@
 width:100%;
 height:200px;
 background: #486db1;
+margin-top: 65px;
 
 }
 #landing .content{
