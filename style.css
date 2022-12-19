@@ -290,7 +290,7 @@ background: #486db1;
 
 footer{
   width:100%;
-  height:550px;
+  height:450px;
   background-color: #002880;
   padding:5px;
 }
@@ -325,19 +325,61 @@ footer   .text{
 
 
 
+
+
+
+
 .middel{
   width:100%;
-  height:230px;
+  height:150px;
   /* background: orange; */
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+
+footer .middel .left{
+  width:50%;
+  height:100%;
+  /* background:#abbedf; */
+  padding:5px;
+  
+}
+.middel p{
+  font-size:22px;
+  font-weight: 900;
+  margin-bottom: 5px;
+  color:white;
+}
+footer .middel .right{
+  width:50%;
+  height:100%;
+  /* background:#134db3; */
+  padding:5px;
+}
+footer .middel ul{
+  margin-left: 15px;
+  color:rgb(136, 134, 134);
+
+}
+footer .middel ul li{
+  padding-bottom: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid chocolate;
+
+}
+
+
 
 footer .bottom{
   width:90%;
-  height:30px;
+  height:45px;
   /* background-color:  blue; */
-  border-top: 3px solid black;
+  border-top: 1px solid black;
   margin: auto;
   display: flex;
   align-items: center;
